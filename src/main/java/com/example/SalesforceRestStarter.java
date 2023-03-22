@@ -46,16 +46,16 @@ public class SalesforceRestStarter {
         } else if (System.console() != null) {
             // System.out.print("Salesforce Username: ");
             // username = System.console().readLine();
-            username = "abhishekkumar.dilip@wissen.com";
+            username = "";
             // System.out.print("Salesforce Password: ");
             // password = new String(System.console().readLine());
-            password = "Abhi@29mzcHezKru4LqdYxrXk7BgWKqW";
+            password = "";
             // System.out.print("Salesforce Consumer Key: ");
             // consumerKey = System.console().readLine();
-            consumerKey = "3MVG9n_HvETGhr3B6Zzs0rd6ZzQPL6NoOrwEBDPtmBU9uEwSsiRyCcvVEePTPwp1jWFKen3KW7h5UvZYA9QVb";
+            consumerKey = "";
             // System.out.print("Salesforce Consumer Secret: ");
             // consumerSecret = new String(System.console().readLine());
-            consumerSecret = "D66CB82B41F6FAD7C8DA4F1940FD079156F32894305D37D57C807EE61E721A29";
+            consumerSecret = "";
         } else {
             throw new Exception("You need to specify username, password, consumer key, and consumer secret");
         }
