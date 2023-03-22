@@ -1,0 +1,47 @@
+2023-03-21 16:26:28.012 [com.example.SalesforceRestStarter.main()] INFO  com.example.SalesforceRestStarter - Contracts created [Contract [contractId=null, name=POC7], Contract [contractId=null, name=POC7], Contract [contractId=null, name=POC6], Contract [contractId=null, name=POC7], Contract [contractId=null, name=POC7], Contract [contractId=null, name=POC7], Contract [contractId=null, name=POC7], Contract [contractId=null, name=POC7], Contract [contractId=null, name=POC6], Contract [contractId=null, name=POC7], Contract [contractId=null, name=POC7], Contract [contractId=null, name=POC7], Contract [contractId=null, name=POC7], Contract [contractId=null, name=POC7], Contract [contractId=null, name=POC7], Contract [contractId=null, name=POC7], Contract [contractId=null, name=POC7], Contract [contractId=null, name=POC7], Contract [contractId=null, name=POC7], Contract [contractId=null, name=POC7], Contract [contractId=null, name=POC1], Contract [contractId=null, name=POC2], Contract [contractId=null, name=POC4], Contract [contractId=null, name=POC3], Contract [contractId=null, name=POC5], Contract [contractId=null, name=POC6]]
+2023-03-21 16:26:28.652 [com.example.SalesforceRestStarter.main()] INFO  com.example.ContractFromReportStrategy - id 00O2w00000DqvkQEAR
+2023-03-21 16:26:28.924 [com.example.SalesforceRestStarter.main()] INFO  com.example.SalesforceRestStarter - Contracts created [Contract [contractId=null, name=POC6], Contract [contractId=null, name=POC6], Contract [contractId=null, name=POC6]]
+2023-03-21 16:26:29.768 [com.example.SalesforceRestStarter.main()] INFO  com.example.SalesforceRestStarter - {
+  "reportMetadata" : {
+    "aggregates" : [ "RowCount" ],
+    "chart" : null,
+    "crossFilters" : [ ],
+    "currency" : null,
+    "description" : null,
+    "detailColumns" : [ "AUMContract__c.Name" ],
+    "developerName" : "New_AUMContracts_Report_LKM",
+    "division" : null,
+    "folderId" : "00l2w000002fcScAAI",
+    "groupingsAcross" : [ ],
+    "groupingsDown" : [ ],
+    "hasDetailRows" : true,
+    "hasRecordCount" : true,
+    "historicalSnapshotDates" : [ ],
+    "id" : "00O2w00000D59dwEAB",
+    "name" : "Fee for POC6",
+    "reportBooleanFilter" : "1",
+    "reportFilters" : [ {
+      "column" : "AUMContract__c.Name",
+      "operator" : "equals",
+      "value" : "POC5"
+    } ],
+    "reportFormat" : "SUMMARY",
+    "reportType" : {
+      "label" : "AUMContracts",
+      "type" : "AUMContracts__c"
+    },
+    "scope" : "user",
+    "showGrandTotal" : true,
+    "showSubtotals" : true,
+    "sortBy" : [ ],
+    "standardDateFilter" : {
+      "column" : "AUMContract__c.CreatedDate",
+      "durationValue" : "THIS_FISCAL_QUARTER",
+      "endDate" : "2023-03-31",
+      "startDate" : "2023-01-01"
+    },
+    "standardFilters" : null,
+    "supportsRoleHierarchy" : false,
+    "userOrHierarchyFilterId" : null
+  }
+}
